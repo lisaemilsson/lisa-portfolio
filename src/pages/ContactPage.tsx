@@ -1,11 +1,8 @@
-import { useEffect } from 'react'
-import { useParams } from 'react-router-dom'
 import ContactSection from '../components/ContactSection'
 import { Container } from '../components/Container'
 import { Helmet } from 'react-helmet'
 
 function ContactPage() {
-
   const greeting = 'Contact me.'
 
   return (

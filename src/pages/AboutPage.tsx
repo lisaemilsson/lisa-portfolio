@@ -1,11 +1,11 @@
 import { useEffect } from 'react'
-import { useParams } from 'react-router-dom'
-import ContactSection from '../components/ContactSection'
 import { Container } from '../components/Container'
 import { Helmet } from 'react-helmet'
 
 function AboutPage() {
-
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   const greeting = 'Hello! I’m Lisa. A UX/UI - designer based in Stockholm'
 
   return (
@@ -17,8 +17,8 @@ function AboutPage() {
         
         <section>
             <h1 className="my-4 text-6xl font-manrope font-light mt-20 text-center">{greeting}</h1>
-          <div className="mt-10 sm:flex justify-center text-center">
-            <img className=" object-cover my-16 w-64 h-96" src="/profile.jpg" alt="Lisa Emilson"/>
+          <div className="mt-10 flex justify-center text-center">
+            <img className="object-cover my-16 w-64 h-96" src="/profileabout.jpg" alt="Lisa Emilson"/>
           </div>
         </section>
         <section>
@@ -29,7 +29,7 @@ function AboutPage() {
           </div>
           <div className="flex justify-center">
         <div className="my-8 flex flex-row items-center justify-center gap-2 py-3 px-6 rounded-full border border-slate-200 text-md">
-        <a href="/resume.pdf" target="_blank">Resumé</a>
+        <a href="/resume.jpg" target="_blank">Resumé</a>
         </div>
     </div>
         </section>

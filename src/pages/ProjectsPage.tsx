@@ -3,9 +3,12 @@ import { Container } from '../components/Container'
 import { projects } from '../data/posts'
 import { Helmet } from 'react-helmet'
 import ProjectCard from '../components/ProjectCard'
+import { useEffect } from 'react'
 
 function ProjectsPage() {
-
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
     <div>
       <Helmet>
@@ -27,9 +30,6 @@ function ProjectsPage() {
     ))}
   </div>
       </Container>
-      <div className="my-24">
-        <ContactSection />
-      </div>
     </div>
   )
 }

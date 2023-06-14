@@ -13,7 +13,7 @@ function ContactSection() {
         <Alert />
       </div>
     </div>
-    <h1 className='flex justify-center text-center text-6xl font-semibold text-gray-700'>emilson.matilda@gmail.com</h1></>
+    <h1 className='flex justify-center text-center font-semibold text-gray-700 lg:text-6xl'>emilson.matilda@gmail.com</h1></>
   )
 }
 

@@ -7,35 +7,27 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    slug: 'portfolio',
-    title: 'Portfolio',
+    slug: 'cook-wise',
+    title: 'CookWise',
     description:
-      'My first react-app ever',
+      'A concept app that automates your oven',
     image:
-      '/test1.jpeg',
+      '/cookwise.png',
   },
   {
-    slug: 'rock-paper-scissor',
-    title: 'Rock Paper Scissor',
+    slug: 'ui-cards',
+    title: 'UI Cards',
     description:
-      'A fully functional rock paper scissors using javascript and css',
+      'A Figma UI Card design',
     image:
-      '/test2.jpeg',
+      '/uicards.png',
   },
   {
-    slug: 'traffic-light',
-    title: 'Traffic Light',
+    slug: 'green-circle',
+    title: 'Green Circle',
     description:
-      'A CSS design to mimic a traffic light',
+      'A green app',
     image:
-      '/test3.jpeg',
-  },
-  {
-    slug: 'guessing-game',
-    title: 'Guessing game',
-    description:
-      'A simple game written in JS + CSS to guess numbers',
-    image:
-      '/test1.jpeg',
+      '/greencircle.png',
   },
 ]

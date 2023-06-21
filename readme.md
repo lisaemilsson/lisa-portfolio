@@ -18,5 +18,5 @@
 
 My name is Lisa Emilson and i'm currently a student in UX/UI design with Frontend competens With a Passion for Design.
 
-# Published portfolio
+## Published portfolio
 https://lisasportfolio.surge.sh/
